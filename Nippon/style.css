@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Forsiden */
+
+/* Pladsen til logoet */
+.logo_on_top {
+top: 0;
+z-index: 999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* NAVIGATIONS BAREN */
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    z-index: 2;    
+}
+
+.navbar_container {
+    background: #589600;
+    display: flex;
+    height: 60px;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+
+/* Logo */
+#navbarlogo{
+    width: 150px;
+    mix-blend-mode: multiply;
+    
+}
+
+.navbar_links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+
+}
+/* SIGN UP KNAPPEN */
+.navbar_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.navbar_btn_div {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    background: #589600;
+    
+}
+
+.button_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+
+}
+.button_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+
+}
+
+/* HOVER FFEKT PÅ SIGN UP KNAPPEN */
+.button_one:hover {
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+
+}
+.button_two:hover {
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+
+}
+
+/* HOVER EFFEKT PÅ NAVIGATIONS LINKS */
+.navbar_links:hover {
+    color: white;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+
+}
+
+
+/* Footer Start */
+footer .containerfooter{
+    max-width: 100%;
+    margin: 15px auto;
+    margin-bottom: 15px;
+  }
+  .rowfooter{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #141414;
+    padding: 70px 0;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #C7711E;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display: block;
+    transition: all 0.3s ease;
+  
+  }
+  .footer-col ul li a:hover{
+    color: #FFCC56;
+    padding-left: 8px;
+  
+  }
+  .footer-col .footersocials a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footersocials ul p{
+    color: #fff;
+  }
+  .footersocials ul img {
+    height: 80px;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+
+  }
+  .footer-col .footersocials a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+/* Footer Slut */
