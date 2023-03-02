@@ -32,7 +32,6 @@
   width: 100%;
   background: #589600;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-
   position: relative;
 }
 .navrow {
@@ -260,10 +259,11 @@
   right: 0;
   left: 0;
 }
-.whitebackground {
-  height: 2800px;
-  background-color: #6d6b6b;
-  z-index: 1;
+
+.big_picture_button button:hover {
+  background-color: #c7711e;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 /*Logo on nav bar on scroll */
@@ -309,8 +309,174 @@
 }
 #myBtn:hover {
   background-color: #c7711e;
+  color: white;
+  transition: all 0.3s ease;
 }
 /* Scroll To Top slut */
+
+/* Måltidskasser cards på forsiden */
+/* Button under forside cards */
+.cards_button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.cards_button button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #589600;
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  z-index: 2;
+  object-fit: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.cards_button button:hover {
+  background-color: #c7711e;
+  color: white;
+  transition: all 0.3s ease;
+}
+/* Button under forside cards slut*/
+.kolonnesektion1 {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  justify-content: center;
+  margin: 40px;
+}
+
+/* Kolonner */
+
+.kolonnesektion2 {
+  display: flex;
+  align-items: center;
+}
+
+/* Kolonne indhold */
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+  font-size: 10px;
+}
+
+.kolonnesektion1 div img {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/vegetar.png);
+}
+
+.card {
+  width: 20%;
+  height: 300px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.55s;
+}
+
+.card1 {
+  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/bæredygtig.png);
+}
+.card2 {
+  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/studerende.png);
+}
+.card3 {
+  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/vegetar.png);
+}
+
+/* HOVER & TEKST dekoration til cards */
+.card:hover {
+  transform: translateY(-10px);
+}
+.kolonnesektion1 div h1 {
+  color: #ffffff;
+  margin-top: 200px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.kolonnesektion2 div h1 {
+  color: #ffffff;
+  margin-top: 200px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.kolonnesektion1 div p {
+  color: #ffffff;
+  text-align: left;
+}
+
+.kolonnesektion2 div p {
+  color: #ffffff;
+  text-align: left;
+}
+/* FORSIDE CARDS SLUT */
+.animatic_container {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.video_container {
+  background-color: #5f5f5f;
+  height: 500px;
+  width: 50%;
+  float: left;
+  margin-left: 375px;
+}
+
+.tekst_container {
+  width: 50%;
+  float: right;
+  padding: 20px;
+  height: 100%;
+}
+
+.tekst_container p {
+  width: 40%;
+  padding: 20px;
+  justify-content: center;
+  font-size: 12pt;
+  text-align: left;
+}
+
+.tekst_container h1 {
+  width: 40%;
+  padding: 30px;
+  justify-content: center;
+  font-size: 12pt;
+  text-align: left;
+}
+
 /* Footer Start */
 footer .containerfooter {
   max-width: 100%;
