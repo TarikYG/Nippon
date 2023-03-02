@@ -103,6 +103,10 @@
     justify-content: center;
     list-style: none;
     text-align: center;
+    z-index: 999;
+  }
+  .navbar_buttons .navbar_btn{
+    z-index: 999;
   }
 
   .hamburger.active .bar:nth-child(2){
@@ -117,7 +121,7 @@
   .navbar_menu:not(.hamburger){
     position: fixed;
     left: -100%;
-    top: 170px;
+    top: 0px;
     gap: 0;
     flex-direction: column;
     background-color: #589600;
@@ -129,10 +133,16 @@
   
 
   .navbar_item{
-    margin: 16px 0;
+    margin: 25px 0;
   }
   .navbar_menu.active{
     left: 0;
+    padding-top: 100px;
+    z-index: 5;
+  }
+  .logo_on_top{
+    z-index: 999;
+    position: relative;
   }
 }
 /* SIGN UP KNAPPEN */
@@ -332,7 +342,7 @@
   background: transparent;
   color: black;
   cursor: pointer;
-  z-index: 2;
+  z-index: 1;
   object-fit: cover;
   top: 0;
   bottom: 0;
