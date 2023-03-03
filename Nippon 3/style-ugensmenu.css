@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#ugensmenu-overskrift {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 35pt;
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: 400;
+}
+
+.topbar {
+  height: fit-content;
+
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.topbar button {
+  width: 220px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  color: rgb(31, 110, 31);
+
+  box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+  border: 2px solid #589600;
+  height: 35px;
+  margin: 20px;
+  border-radius: 25px;
+  font-family: "Mukta Mahee", sans-serif;
+
+  align-items: center;
+}
+
+.topbar button h2 {
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.topbar button:hover {
+  scale: 104%;
+  background-color: #589600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.opskrift {
+  height: 600px;
+  margin: 40px;
+  border-width: 2px;
+  border-color: transparent;
+  box-shadow: 1px 1px 2px 2px rgb(207, 207, 207);
+  border-radius: 3px;
+}
+
+.opskrift h4 {
+  text-align: right;
+  margin: 10px;
+  font-family: "Mukta Mahee", sans-serif;
+  font-size: 13pt;
+  font-weight: 100;
+  color: rgb(31, 110, 31);
+}
+
+.opskrift h3 {
+  font-size: 25pt;
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: 200;
+  padding-left: 40px;
+  padding-top: 20px;
+  color: rgb(20, 74, 20);
+}
+
+.opskrift .container {
+  display: flex;
+
+  flex-direction: column;
+  height: 600px;
+}
+
+.opskrift .container .top {
+  height: 120px;
+}
+
+.opskrift .container .mid {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  height: fit-content;
+}
+
+.opskrift .container .mid .ret {
+  width: 430px;
+  height: 290px;
+  padding-left: 40px;
+  padding-top: 0px;
+  border-radius: 4px;
+}
+
+.opskrift .container .mid .ret img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.opskrift .container .mid .ingredienser {
+  margin-left: 30px;
+  width: fit-content;
+}
+
+.opskrift .container .mid .ingredienser h5 {
+  font-size: 17pt;
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: 400;
+}
+
+.opskrift .container .mid .ingredienser h6 {
+  font-size: 12pt;
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: 200;
+}
+
+.opskrift .container .bottom {
+  height: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.opskrift .container .bottom button {
+  width: 230px;
+  height: 50px;
+
+  margin: 40px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  color: transparent;
+  border: 2px solid #589600;
+  border-radius: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px 1px rgb(207, 207, 207);
+  font-family: "Mukta Mahee", sans-serif;
+}
+
+.opskrift .container .bottom button:hover {
+  scale: 103%;
+  background-color: #589600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.opskrift .container .bottom button h3 {
+  font-weight: 400;
+  font-size: 13pt;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  justify-content: space-between;
+  background-color: rgb(77, 45, 45);
+}
+
+.container2 .opskrift-left {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 70px;
+  width: 2000px;
+  height: 600px;
+  background-color: rgb(36, 36, 54);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container2 .opskrift-right {
+  margin-right: 0px;
+  margin-top: 0px;
+
+  width: 2000px;
+  height: 600px;
+
+  background-color: rgb(36, 36, 54);
+}
+
+.container2 h3 {
+  font-size: 25pt;
+  font-family: "Mukta Mahee", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(20, 74, 20);
+}
+
+.container2 .ret2 {
+  width: 370px;
+  height: 290px;
+
+  border-radius: 4px;
+}
+
+.container2 .ret2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 800px) {
+  .opskrift .container .mid {
+    flex-direction: column;
+  }
+
+  .opskrift .container .mid .ingredienser {
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+  .opskrift {
+    height: 890px;
+  }
+
+  .opskrift .container .bottom {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .opskrift .container .bottom button {
+    margin: 20px;
+  }
+
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container2 .opskrift-left {
+    width: 400px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+
+  .container2 .opskrift-right {
+    width: 400px;
+  }
+}

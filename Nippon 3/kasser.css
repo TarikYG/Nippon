@@ -52,22 +52,22 @@ p {
 }
 
 .card1 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/bæredygtig.png);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/bæredygtig.png);
 }
 .card2 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/studerende.png);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/studerende.png);
 }
 .card3 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/vegetar.png);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/vegetar.png);
 }
 .card4 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/luksus.jpg);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/luksus.jpg);
 }
 .card5 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/børnevenlig.jpg);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/børnevenlig.jpg);
 }
 .card6 {
-  background-image: linear-gradient(rgba(109, 105, 105, 0.7), rgba(0, 0, 0, 0.7)), url(images/sundhed.jpg);
+  background-image: linear-gradient(rgba(181, 179, 179, 0.278), rgba(0, 0, 0, 0.7)), url(images/sundhed.jpg);
 }
 
 /* HOVER & TEKST dekoration til cards */
@@ -96,4 +96,11 @@ p {
 .kolonnesektion2 div p {
   color: #ffffff;
   text-align: left;
+}
+
+.sushi_container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }

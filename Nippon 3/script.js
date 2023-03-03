@@ -21,6 +21,7 @@ function scrollFunction() {
 }
 
 
+
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
@@ -33,6 +34,6 @@ const hamburger = document.querySelector(".hamburger")
 const navMenu = document.querySelector(".navbar_menu")
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active")
-    navMenu.classList.toggle("active")
+  hamburger.classList.toggle("active")
+  navMenu.classList.toggle("active")
 })
